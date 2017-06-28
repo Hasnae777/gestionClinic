@@ -10,7 +10,8 @@ import javax.faces.bean.SessionScoped;
 import DAO.InfermierImpl;
 import DAO.PatientImpl;
 
-
+@ManagedBean
+@SessionScoped
 public class Infermier implements Serializable {
 	private int id_infermier;
 	private String nom;

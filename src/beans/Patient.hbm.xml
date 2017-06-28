@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 25 juin 2017 14:27:21 by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="beans.Patient" table="PATIENT">
+       <id name="id" type="int">
+            <column name="ID" />
+            <generator class="native" />
+        </id>
+        <property name="nom" type="java.lang.String">
+            <column name="NOM" />
+        </property>
+        <property name="prenom" type="java.lang.String">
+            <column name="PRENOM" />
+        </property>
+        <property name="password" type="java.lang.String">
+            <column name="PASSWORD" />
+        </property>
+        <property name="age" type="int">
+            <column name="AGE" />
+        </property>
+        <property name="email" type="java.lang.String">
+            <column name="EMAIL" />
+        </property>
+        <property name="sexe" type="java.lang.String">
+            <column name="SEXE" />
+        </property>
+        <property name="etat" type="java.lang.String">
+            <column name="ETAT" />
+        </property>
+        <property name="blood" type="java.lang.String">
+            <column name="BLOOD" />
+        </property>
+        <property name="date_entree" type="java.sql.Timestamp">
+            <column name="DATE_ENTREE" />
+        </property>
+        <property name="date_sortie" type="java.sql.Timestamp">
+            <column name="DATE_SORTIE" />
+        </property>
+        <property name="id_infermier" type="int">
+            <column name="ID_INFERMIER" />
+        </property>
+        <property name="poid" type="int">
+            <column name="POID" />
+        </property>
+        <property name="id_chambre" type="int">
+            <column name="ID_CHAMBRE" />
+        </property>
+        
+       
+        
+        
+        
+    </class>
+</hibernate-mapping>
